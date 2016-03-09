@@ -1,7 +1,7 @@
 Vue = require 'vue'
 Firebase = require 'firebase'
 
-firebase = new Firebase 'https://***REMOVED***.firebaseio.com'
+firebase = new Firebase 'https://your-firebase-app-here.firebaseio.com'
 
 vuestrap_components = require 'vuestrap-base-components/src/components'
 require 'vuestrap/bootstrap/bootstrap-flex.scss'
