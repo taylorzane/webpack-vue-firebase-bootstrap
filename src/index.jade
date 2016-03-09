@@ -1,0 +1,13 @@
+html
+  head
+    title Webpack-VueJS-Firebase-Bootstrap TodoMVC
+  body
+    #app
+      .container
+        .row
+          .col-xs-10.col-xs-offset-2
+            h1.display-1.text-xs-center TodoMVC
+            h2.display-4.text-xs-center VueJS, Firebase, Bootstrap 4
+            ul.todos
+              li.todo(v-for="todo of todos") {{ todo.memo }}
+  script(src="./app.js")
